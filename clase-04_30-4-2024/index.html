@@ -1,0 +1,86 @@
+<!-- 
+  anidación: en HTML algunos elementos contienen a otros, estos se vuelven padres
+  atributos: metainformación para los elementos HTML
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input, a {
+        display: block;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <img>
+    <!-- Encabezado 1 -->
+    <h1>Receta de ñoquis</h1>
+    <!-- Encabezado 2 -->
+    <h2>Ingredientes</h2>
+    <!-- Párrafo -->
+    <p>Esto es un parrafo</p>
+    <!-- Resaltar texto -->
+    <strong>Esto es un texto resaltado</strong>
+
+    <!-- Listas -->
+    <!-- Lista ordenada: orderer list -->
+    <!-- li: list item -->
+    <ol>
+      <li>Lechuga</li>
+      <li>Tomate</li>
+      <li>Achicoria</li>
+    </ol>
+    <!-- Lista desordenada: unordered list -->
+    <!-- li: list item -->
+    <ul>
+      <li>Color: negro</li>
+      <li>Carcaza: plastico</li>
+      <li>Camaras: 3</li>
+      <li>Marca: motorola</li>
+    </ul>
+
+    <!-- Tablas -->
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Curso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gabriel</td>
+          <td>Alberini</td>
+          <td>4° A</td>
+        </tr>
+        <tr>
+          <td>María</td>
+          <td>Albornoz</td>
+          <td>1° A</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Imagenes -->
+    <!-- src: source | fuente -->
+    <img width="100" src="https://media.es.wired.com/photos/65845b5ea4076464da362974/16:9/w_2560%2Cc_limit/Science-Life-Extension-Drug-for-Big-Dogs-Is-Getting-Closer-1330545769.jpg" /> 
+
+    <h2>Input</h2>
+    <form>
+      <input type="text" placeholder="Ingresa tu nombre" required>
+      <input type="number" placeholder="Ingresa tu dni" required> 
+      <input type="password" placeholder="Ingresa la contraseña" required>
+      <input type="color"> 
+      <input type="file">
+      <button>Enviar</button>
+    </form>
+    <a href="http://google.com" target="_blank">Ir a google</a>
+    <a href="./contact.html">Ir a contacto</a>
+  </body>
+</html>
+
+ 
