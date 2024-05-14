@@ -1,0 +1,32 @@
+/* Selectores */
+/* Forma en como se "llama" un elemento html */
+/* Selector por etiqueta */
+
+/* Propiedades y valores */
+img {
+  width: 150px;
+  border: 2px solid blue;
+  display: block;
+  margin: auto;
+}
+
+/*Propiedades para texto*/
+/* Selector multiple -> una forma de seleccionar multiples elementos html */
+h1,
+h2,
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+}
+
+/* Selector por clase */
+.comentarios {
+  background-color: yellowgreen;
+}
+
+div {
+  background-color: rgb(189, 211, 145);
+}

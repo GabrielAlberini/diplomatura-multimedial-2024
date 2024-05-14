@@ -1,0 +1,5 @@
+- Cada sección debe tener un color de fondo diferente
+- Los titulos deben estar centrados en el medio de la pantalla
+- Todas las imagenes tienen que tener un borde de 4px
+- Todas las imagenes deben medir 200px
+- Investigar como poner el texto de nuestra historia en "negrita"
