@@ -1,0 +1,80 @@
+/* Selector universal -> selecciona TODOS los elementos html */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector por etiqueta */
+header {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+/* Selector especifico */
+header img {
+  width: 150px;
+  background-color: yellow;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  background-color: coral;
+  padding: 20px;
+}
+
+/* Selector de clase */
+.banner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/26/21/05/modern-kitchen-1772638_1280.jpg");
+  background-size: cover;
+  color: red;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container-products {
+  background-color: wheat;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container-products h3 {
+  background-color: thistle;
+  text-align: center;
+  padding: 10px;
+}
+
+article {
+  background-color: tan;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+article div {
+  width: 50%;
+  text-align: center;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+footer {
+  background-color: darkcyan;
+  padding: 20px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
