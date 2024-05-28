@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: yellowgreen;
+  padding: 10px;
+  display: flex;
+  /* maneja el contenido en el eje X */
+  justify-content: space-between;
+  /* maneja el contenido en el eje Y */
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+  background-color: tomato;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+header ul li {
+  background-color: teal;
+}
+
+header ul li a {
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: violet;
+  padding: 10px;
+  text-align: center;
+}
