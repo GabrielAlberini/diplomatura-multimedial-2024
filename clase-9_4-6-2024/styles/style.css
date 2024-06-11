@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Estilos header */
+
+header {
+  background-color: yellowgreen;
+  padding: 10px;
+  display: flex;
+  /* maneja el contenido en el eje X */
+  justify-content: space-between;
+  /* maneja el contenido en el eje Y */
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+  background-color: tomato;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+header ul li {
+  background-color: teal;
+}
+
+header ul li a {
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+/* Estilos footer */
+
+footer {
+  background-color: violet;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos main index.html */
+
+.c-index {
+  background-color: azure;
+  text-align: center;
+  padding: 20px;
+}
+
+.c-index h2 {
+  margin-bottom: 20px;
+}
+
+.c-index article {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+}
+
+.c-index article div {
+  background-color: teal;
+  width: 50%;
+  padding: 20px;
+}
+
+.c-index article div * {
+  margin-bottom: 20px;
+}
+
+.c-index article div img {
+  width: 100%;
+}
+
+/* Estilos main productos.html */
+
+.c-products {
+  text-align: center;
+  padding: 20px;
+}
+
+.c-products ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.c-products h2 {
+  padding-bottom: 20px;
+}
+
+.c-products ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Contenido Main contacto.html */
+
+.c-contact {
+  text-align: center;
+  padding: 20px;
+}
+
+.c-contact ul {
+  list-style: none;
+}
+
+.c-contact a {
+  font-size: 30px;
+}
+
+.c-contact h2,
+.c-contact ul {
+  margin-bottom: 20px;
+}
+
+/* responsive design */
+
+@media (max-width: 600px) {
+  .c-index {
+    padding: 20px;
+  }
+
+  .c-index article {
+    padding: 0;
+  }
+  .c-index article,
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .c-index article div {
+    width: 80%;
+    margin: auto;
+  }
+}
