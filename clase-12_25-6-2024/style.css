@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+section h2 {
+  padding-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.proyecto {
+  background-color: azure;
+  width: 200px;
+  padding: 20px;
+}
+
+.proyecto a {
+  text-decoration: none;
+  padding-top: 10px;
+  display: block;
+  color: brown;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
