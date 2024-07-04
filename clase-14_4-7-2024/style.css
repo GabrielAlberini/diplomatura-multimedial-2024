@@ -1,0 +1,114 @@
+/* Reseteo de CSS */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.popup {
+  width: 550px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  box-shadow: 7px 11px 29px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+.izquierda {
+  background-color: rgb(129, 82, 199);
+  padding: 20px;
+  width: 50%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.derecha {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.izquierda h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.circulo {
+  background-color: rgb(175, 146, 218);
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-content: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.numero {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.derecha h3 {
+  margin-bottom: 20px;
+}
+
+.derecha ul {
+  list-style: none;
+}
+
+.derecha ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rojo {
+  background-color: rgb(255, 212, 212);
+  color: red;
+}
+
+.amarillo {
+  background-color: rgb(255, 255, 194);
+  color: rgb(165, 165, 54);
+}
+
+.verde {
+  background-color: rgb(208, 255, 208);
+  color: green;
+}
+
+.azul {
+  background-color: rgb(215, 215, 255);
+  color: blue;
+}
+
+li span {
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(42, 8, 93);
+  cursor: pointer;
+  transition: 0.3s all ease;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: white;
+  outline: 1px solid rgb(42, 8, 93);
+  color: rgb(42, 8, 93);
+}
